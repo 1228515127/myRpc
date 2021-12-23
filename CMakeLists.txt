@@ -1,0 +1,5 @@
+project(rpcAndExample)
+set(CMAKE_CXX_STANDARD 11)
+add_subdirectory(MyRpc)
+add_subdirectory(example/client)
+add_subdirectory(example/server)

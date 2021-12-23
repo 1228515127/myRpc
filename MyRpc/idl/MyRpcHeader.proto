@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package myRpc;
+
+message MyRpcHeader
+{
+    bytes service_name=1;
+    bytes method_name=2;
+    uint32 args_size=3;
+}
+// 使用  protoc xxx.proto --cpp_out=./  生成.h和.cc文件

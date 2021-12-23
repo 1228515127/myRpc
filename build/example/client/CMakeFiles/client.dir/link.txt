@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/client.dir/src/MyMathService.pb.o CMakeFiles/client.dir/src/client.o  -o ../../../example/client/bin/client   -L/home/lsd/myRpc/MyRpc/lib  ../../../MyRpc/lib/libmyrpc.a -lmuduo_net -lmuduo_base -lprotobuf -lzookeeper_mt -lpthread 

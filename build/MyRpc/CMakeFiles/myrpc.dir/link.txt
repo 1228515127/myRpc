@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../MyRpc/lib/libmyrpc.a  CMakeFiles/myrpc.dir/src/MyConnectPool.o CMakeFiles/myrpc.dir/src/MyRpcChannel.o CMakeFiles/myrpc.dir/src/MyRpcConfig.o CMakeFiles/myrpc.dir/src/MyRpcController.o CMakeFiles/myrpc.dir/src/MyRpcHeader.pb.o CMakeFiles/myrpc.dir/src/MyRpcServer.o CMakeFiles/myrpc.dir/src/ZkClient.o
+/usr/bin/ranlib ../../MyRpc/lib/libmyrpc.a
